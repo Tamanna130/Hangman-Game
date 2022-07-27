@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="850.0" text="Hangman Game" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="_a" layoutX="55.0" layoutY="169.0" mnemonicParsing="false" onAction="#A" prefHeight="25.0" prefWidth="25.0" text="A" />
+            <Button fx:id="_b" layoutX="91.0" layoutY="169.0" mnemonicParsing="false" onAction="#B" prefHeight="25.0" prefWidth="25.0" text="B" />
+            <Button fx:id="_c" layoutX="124.0" layoutY="169.0" mnemonicParsing="false" onAction="#C" prefHeight="25.0" prefWidth="25.0" text="C" />
+            <Button fx:id="_d" layoutX="157.0" layoutY="169.0" mnemonicParsing="false" onAction="#D" prefHeight="25.0" prefWidth="25.0" text="D" />
+            <Button fx:id="_e" layoutX="191.0" layoutY="169.0" mnemonicParsing="false" onAction="#E" prefHeight="25.0" prefWidth="25.0" text="E" />
+            <Button fx:id="_f" layoutX="223.0" layoutY="169.0" mnemonicParsing="false" onAction="#F" prefHeight="25.0" prefWidth="25.0" text="F" />
+            <Button fx:id="_g" layoutX="256.0" layoutY="169.0" mnemonicParsing="false" onAction="#G" prefHeight="25.0" prefWidth="25.0" text="G" />
+            <Button fx:id="_h" layoutX="223.0" layoutY="205.0" mnemonicParsing="false" onAction="#M" prefHeight="26.0" prefWidth="27.0" text="M" />
+            <Button fx:id="_i" layoutX="191.0" layoutY="205.0" mnemonicParsing="false" onAction="#L" prefHeight="25.0" prefWidth="25.0" text="L" />
+            <Button fx:id="_j" layoutX="157.0" layoutY="205.0" mnemonicParsing="false" onAction="#K" prefHeight="25.0" prefWidth="25.0" text="K" />
+            <Button fx:id="_k" layoutX="124.0" layoutY="205.0" mnemonicParsing="false" onAction="#J" prefHeight="25.0" prefWidth="25.0" text="J" />
+            <Button fx:id="_l" layoutX="91.0" layoutY="205.0" mnemonicParsing="false" onAction="#I" prefHeight="25.0" prefWidth="25.0" text="I" />
+            <Button fx:id="_m" layoutX="55.0" layoutY="205.0" mnemonicParsing="false" onAction="#H" prefHeight="25.0" prefWidth="25.0" text="H" />
+            <Button fx:id="_n" layoutX="256.0" layoutY="205.0" mnemonicParsing="false" onAction="#N" prefHeight="25.0" prefWidth="25.0" text="N" />
+            <Button fx:id="_o" layoutX="191.0" layoutY="241.0" mnemonicParsing="false" onAction="#S" prefHeight="25.0" prefWidth="25.0" text="S" />
+            <Button fx:id="_p" layoutX="157.0" layoutY="241.0" mnemonicParsing="false" onAction="#R" prefHeight="25.0" prefWidth="25.0" text="R" />
+            <Button fx:id="_q" layoutX="124.0" layoutY="241.0" mnemonicParsing="false" onAction="#Q" prefHeight="25.0" prefWidth="25.0" text="Q" />
+            <Button fx:id="_r" layoutX="91.0" layoutY="241.0" mnemonicParsing="false" onAction="#P" prefHeight="25.0" prefWidth="25.0" text="P" />
+            <Button fx:id="_s" layoutX="55.0" layoutY="241.0" mnemonicParsing="false" onAction="#O" prefHeight="25.0" prefWidth="25.0" text="O" />
+            <Button fx:id="_t" layoutX="256.0" layoutY="241.0" mnemonicParsing="false" onAction="#U" prefHeight="25.0" prefWidth="25.0" text="U" />
+            <Button fx:id="_u" layoutX="224.0" layoutY="241.0" mnemonicParsing="false" onAction="#T" prefHeight="25.0" prefWidth="25.0" text="T" />
+            <Button fx:id="_v" layoutX="224.0" layoutY="277.0" mnemonicParsing="false" onAction="#Z" prefHeight="25.0" prefWidth="25.0" text="Z" />
+            <Button fx:id="_w" layoutX="194.0" layoutY="277.0" mnemonicParsing="false" onAction="#Y" prefHeight="26.0" prefWidth="23.0" text="Y" />
+            <Button fx:id="_x" layoutX="161.0" layoutY="277.0" mnemonicParsing="false" onAction="#X" prefHeight="26.0" prefWidth="26.0" text="X" />
+            <Button fx:id="_y" layoutX="124.0" layoutY="277.0" mnemonicParsing="false" onAction="#W" prefHeight="26.0" prefWidth="29.0" text="W" />
+            <Button fx:id="_z" layoutX="91.0" layoutY="277.0" mnemonicParsing="false" onAction="#V" prefHeight="25.0" prefWidth="25.0" text="V" />
+          <ImageView fitHeight="219.0" fitWidth="330.0" layoutX="437.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../HangmanImage/img00.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="score" layoutX="638.0" layoutY="62.0" prefHeight="18.0" prefWidth="139.0" text="Score :" />
+            <Label fx:id="word" alignment="TOP_CENTER" layoutX="422.0" layoutY="406.0" prefHeight="55.0" prefWidth="278.0" text="Words" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
